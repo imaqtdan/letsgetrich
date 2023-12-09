@@ -1,11 +1,14 @@
 import React from 'react'
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import SideNav from "../SideNav"
+import NavBar from "../components/NavBar";
+import SideNav from "../components/SideNav";
 
 function Home() {
   return (
     <>
+        <NavBar />
+        <Box height={30} />
         <Box sx={{ display: 'flex' }}>
             <SideNav />
             <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
