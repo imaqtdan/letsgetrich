@@ -9,7 +9,7 @@ function AdminPanel() {
         <Box sx={{ display: 'flex' }}>
             <SideNav />
             <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-                <h1>Admin Panel</h1>
+                <h3>Admin Panel</h3>
             </Box>
         </Box>
     </> 

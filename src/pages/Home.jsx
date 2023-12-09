@@ -9,7 +9,7 @@ function Home() {
         <Box sx={{ display: 'flex' }}>
             <SideNav />
             <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-                <h1>Home</h1>
+                <h3>Home</h3>
                 <Typography paragraph>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non
